@@ -9,18 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@aws-sdk/client-cognito-identity-provider": "^3.409.0",
-    "@types/node": "20.5.9",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "aws-amplify": "^5.3.12",
-    "dayjs": "^1.11.9",
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.4.19",
-    "next": "14.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "@aws-sdk/client-cognito-identity-provider": "^3.637.0",
+    "@types/node": "22.5.0",
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "aws-amplify": "^6.5.3",
+    "dayjs": "^1.11.13",
+    "eslint": "9.9.1",
+    "eslint-config-next": "14.2.6",
+    "next": "14.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.5.4"
   }
 }
