@@ -7,7 +7,7 @@ import {
 import dayjs from "dayjs";
 
 const client = new CognitoIdentityProviderClient({
-  region: process.env.AWS_REGION,
+  region: process.env.NEXT_PUBLIC_AWS_REGION,
 });
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
@@ -15,7 +15,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const token = randomBytes(20).toString("hex");
 
   const command = new AdminUpdateUserAttributesCommand({
-    UserPoolId: process.env.COGNITO_USER_POOL_ID,
+    UserPoolId: process.env.NEXT_PUBLIC_COGNITO_USER_POOL_ID,
     Username: email,
     UserAttributes: [
       {
